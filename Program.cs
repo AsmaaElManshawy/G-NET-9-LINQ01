@@ -70,6 +70,11 @@ namespace LINQAssignment01
             //5.Get all products that are in stock(UnitsInStock > 0) and belong to the "Condiments" category.
             //-----------------------------------
 
+            //var condimentsInStock = ProductList.Where(p => p.UnitsInStock > 0 && p.Category == "Condiments");
+
+            //foreach (var p in condimentsInStock)
+            //    Console.WriteLine($"Name : {p.ProductName} - Price : {p.UnitPrice} - Stock : {p.UnitsInStock} - Category : {p.Category}");
+
             #endregion
 
             #region Question 06
