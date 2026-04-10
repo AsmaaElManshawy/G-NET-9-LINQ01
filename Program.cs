@@ -144,6 +144,14 @@ namespace LINQAssignment01
             //showing CustomerID and OrderDate.
             //-------------------------------------
 
+            //var orders1997 =  from c in CustomerList
+            //                  from o in c.Orders
+            //                  where o.OrderDate.Year >= 1997
+            //                  select new { c.CustomerID, o.OrderDate };
+
+            //foreach (var o in orders1997)
+            //    Console.WriteLine($"CustomerID : {o.CustomerID} - Order Date : {o.OrderDate}");
+
             #endregion
 
             #region Question 11
