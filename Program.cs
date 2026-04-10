@@ -103,6 +103,11 @@ namespace LINQAssignment01
             //Expected format: 1.Chai, 2.Chang, etc.
             //------------------------------------
 
+            //var indexedProducts = ProductList.Select((p, index) => new { Index = index + 1, p.ProductName });
+
+            //foreach (var p in indexedProducts)
+            //    Console.WriteLine($"{p.Index}.{p.ProductName}");
+
             #endregion
 
             #region Question 08
