@@ -46,6 +46,11 @@ namespace LINQAssignment01
             //Print each product's name and price.
             //-------------------------------------
 
+            //var sortedByPrice = ProductList.OrderBy(p => p.UnitPrice);
+
+            //foreach (var p in sortedByPrice)
+            //    Console.WriteLine($"Name : {p.ProductName} - Price : {p.UnitPrice}");
+
             #endregion
 
             #region Question 04
