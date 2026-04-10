@@ -33,6 +33,11 @@ namespace LINQAssignment01
             //Print each name.
             //-------------------------------------
 
+            //var productNames = ProductList.Select(p => p.ProductName);
+
+            //foreach (var name in productNames)
+            //    Console.WriteLine(name);
+
             #endregion
 
             #region Question 03
