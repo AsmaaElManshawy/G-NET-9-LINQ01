@@ -1,4 +1,5 @@
 ﻿using LINQAssignment01.DataSources;
+using LINQAssignment01.Helpers;
 using LINQAssignment01.Models;
 using System.Collections.Generic;
 using System.Xml.Linq;
@@ -172,8 +173,15 @@ namespace LINQAssignment01
             //-------------------------------------
             //12.Sort first by-word length and then by a
             //case -insensitive sort of the words in an array.
-            //--------------------------------------
             //String[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+            //--------------------------------------
+
+            //string[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+
+            //var sortedWords = Arr.OrderBy(w => w.Length).ThenBy(w => w, new StringCaseInsensitiveComparer());
+
+            //foreach (var word in sortedWords)
+            //    Console.WriteLine(word);
 
             #endregion
 
