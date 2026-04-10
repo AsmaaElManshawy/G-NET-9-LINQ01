@@ -128,6 +128,13 @@ namespace LINQAssignment01
             //Print name and stock.
             //------------------------------------
 
+            //var beverages = ProductList.Where(p => p.Category == "Beverages")
+            //    .OrderByDescending(p => p.UnitsInStock)
+            //    .Select(p => new { p.ProductName, p.UnitsInStock });
+
+            //foreach (var p in beverages)
+            //    Console.WriteLine($"Name : {p.ProductName} - Stock : {p.UnitsInStock}");
+
             #endregion
 
             #region Question 10
