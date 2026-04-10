@@ -189,8 +189,15 @@ namespace LINQAssignment01
             //--------------------------------------
             //13.Create a list of all digits in the array whose second
             //letter is 'i' that is reversed from the order in the original array.
+            //String[] Arr = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
             //--------------------------------------
-            //String[] Arr = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine","ten" };
+
+            //string[] digits = { "zero","one","two","three","four","five","six","seven","eight","nine" };
+
+            //var result = digits.Where(d => d.Length > 1 && d[1] == 'i').Reverse();
+
+            //foreach (var d in result)
+            //    Console.WriteLine(d);
 
             #endregion
 
