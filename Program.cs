@@ -87,6 +87,14 @@ namespace LINQAssignment01
             //● Print the result.
             //---------------------------------
 
+            //var productStatus = ProductList.Select(p => new { Name = p.ProductName, Price = p.UnitPrice,
+            //    StockStatus = p.UnitsInStock > 0 ? "Available" : "Out of Stock" } );
+
+            //foreach (var p in productStatus)
+            //    //Console.WriteLine($"{p.Name} - {p.Price} - {p.StockStatus}");
+            //    Console.WriteLine(p);
+
+
             #endregion
 
             #region Question 07
