@@ -159,6 +159,13 @@ namespace LINQAssignment01
             //11.Show position number alongside ProductName
             //-------------------------------------
 
+            //var productsWithIndex = ProductList.Select((p, i) => new { Position = i + 1, p.ProductName });
+            ////var productsWithIndex = ProductList.Select((p, i) => new { Position = i , p.ProductName });
+
+
+            //foreach (var p in productsWithIndex)
+            //    Console.WriteLine($"{p.Position}.{p.ProductName}");
+
             #endregion
 
             #region Question 12
