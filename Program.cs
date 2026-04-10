@@ -58,6 +58,11 @@ namespace LINQAssignment01
             //4.Get all products where UnitPrice is between 10 and 30
             //----------------------------------
 
+            //var midRangeProducts = ProductList.Where(p => p.UnitPrice >= 10 && p.UnitPrice <= 30);
+
+            //foreach (var p in midRangeProducts)
+            //    Console.WriteLine($"Name : {p.ProductName} - Price : {p.UnitPrice}");
+
             #endregion
 
             #region Question 05
