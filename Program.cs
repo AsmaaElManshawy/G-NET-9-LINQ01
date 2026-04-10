@@ -1,6 +1,9 @@
-﻿using LINQAssignment01.Models;
+﻿using LINQAssignment01.DataSources;
+using LINQAssignment01.Models;
 using System.Collections.Generic;
 using System.Xml.Linq;
+using static LINQAssignment01.DataSources.Source;
+
 
 namespace LINQAssignment01
 {
@@ -15,6 +18,12 @@ namespace LINQAssignment01
             //1.Get all products from the "Seafood" category.
             //Print each product's name and price.
             //-------------------------------------
+
+            //var seafoodProducts = ProductList.Where(p => p.Category == "Seafood")
+            //                         .Select(p => new {p.ProductName, p.UnitPrice });
+
+            //foreach (var p in seafoodProducts)
+            //    Console.WriteLine($"{p.ProductName} - {p.UnitPrice}");
 
             #endregion
 

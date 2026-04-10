@@ -1,4 +1,5 @@
 ﻿using System;
+using LINQAssignment01.Models;
 
 namespace LINQAssignment01.DataSources
 {
